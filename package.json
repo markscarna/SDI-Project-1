@@ -1,0 +1,23 @@
+{
+  "name": "sdi-project-1",
+  "version": "1.0.0",
+  "description": "a simple static website that renders an API and displays it gracefully",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markscarna/SDI-Project-1.git"
+  },
+  "author": "Mark Scarna, Matthew Greenup, Claude Summers, Jacob Bodenbender, Heath McGraw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markscarna/SDI-Project-1/issues"
+  },
+  "homepage": "https://github.com/markscarna/SDI-Project-1#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
