@@ -9,7 +9,7 @@ const privateKey = '07fc721ea9a1069019e21eda9504d830177110df';
 const publicKey = '489d289854fbfcb356ded93a89e0451d';
 const hashValue = getApiHash(timeStamp, privateKey, publicKey);
 
-let characterName = 'Iron%20Man';
+let characterName = 'iron%20man';
 let characterID = 0;
 let currentCharacter = {};
 
@@ -21,7 +21,7 @@ const charactersURL = `${requestConstantCharacters}?name=${characterName}&ts=${t
 //const comicsURL = `${requestConstantComics}${characterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
 
 // console.log(exampleUrl);
-
+//consider chaining api calls, add catch statements
 fetch(charactersURL)
     .then(function (response) {
         return response.json()
@@ -36,17 +36,17 @@ fetch(charactersURL)
                 return response.json();
             })
             .then(function (data) {
-                console.log(data.data.results[0].title);
+                // console.log(data.data.results[0].title);
                 let comicList = new Comics(data);
-                console.log(comicList.getListOfTitles())
+                console.log(comicList.getListOfComics())
             })
         //console.log(characterID);
-        // console.log(currentCharacter.name)
+        //console.log(currentCharacter.name)
 
-        // console.log(currCharacter.description)
-        // console.log(currCharacter.imageURL)
-        // console.log(currCharacter.listOfComics)
-        //console.log(currCharacter.getListOfComics());
+        //console.log(currentCharacter.description)
+        //console.log(currentCharacter.imageURL)
+        // console.log(currentCharacter.listOfComics)
+        //console.log(currentCharacter.getListOfComics());
     })
 
 // setTimeout(() => {
