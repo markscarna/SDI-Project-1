@@ -13,6 +13,12 @@ const hashValue = getApiHash(timeStamp, privateKey, publicKey);
 let characterID = 0;
 let currentCharacter = {};
 
+var character = {
+    name: "",
+    description: "",
+    imageURL: "",
+    comicBooks: []
+}
 
 const requestConstantCharacters = 'https://gateway.marvel.com/v1/public/characters';
 const requestConstantComics = 'http://gateway.marvel.com/v1/public/characters/';
@@ -35,7 +41,7 @@ const apiFetch = (characterName) => {
         })
         .then(function () {
             characterID = currentCharacter.characterID
-            fetch(`${requestConstantComics}${characterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`)
+            fetch(`${requestConstantComics}${characterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=10`)
                 .then(function (response) {
                     return response.json();
                 })
@@ -43,18 +49,27 @@ const apiFetch = (characterName) => {
                     // console.log(data.data.results[0].title);
                     let comicList = new Comics(data);
                     let comicObject = comicList.getListOfComics();
-                    console.log(comicObject[1].description);
-                    console.log(comicObject.description);
+                    character.comicBooks.push(comicObject);
+                    // console.log(comicObject[1].description);
                 })
-            console.log(currentCharacter.name)
-            console.log(currentCharacter.description)
-            console.log(currentCharacter.imageURL)
+            character.name = currentCharacter.name;
+            character.description = currentCharacter.description;
+            character.imageURL = currentCharacter.imageURL;
+
         })
         .catch(() => {
             console.log('character not found');
         })
 }
 
+apiFetch('captain%20america');
+
+setTimeout(() => {
+    console.log(character.name);
+    console.log(character.description);
+    console.log(character.imageURL);
+    console.log(character.comicBooks);
+}, 2000)
 // setTimeout(() => {
 //     console.log(currCharacter.name)
 //     console.log(currCharacter.name)
