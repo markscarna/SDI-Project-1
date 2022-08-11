@@ -7,7 +7,7 @@ class Character {
         this.name = characterObject['data']['results'][0]['name'];
         this.description = characterObject['data']['results'][0]['description']
         this.imageURL = characterObject['data']['results'][0]['thumbnail']['path'] + pictureNamingConvention;
-        this.listOfComics = characterObject['data']['results'][0]['comics']['collectionURI'];
+        this.listOfComics = [];
         this.characterID = characterObject['data']['results'][0]['id'];
         if (this.description === "") {
             this.description = 'There is no description available for this character.'
