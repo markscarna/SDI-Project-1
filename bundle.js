@@ -3897,36 +3897,55 @@ const requestConstantComics = 'http://gateway.marvel.com/v1/public/characters/';
 
 // console.log(exampleUrl);
 //consider chaining api calls, add catch statements
-const apiFetch = (characterName) => {
-    // console.log("apiFetch was triggered");
-    const charactersURL = `${requestConstantCharacters}?name=${characterName}&ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
-    fetch(charactersURL)
-        .then(function (response) {
-            return response.json()
-        })
-        .then(function (data) {
-            currentCharacter = new Character(data);
-        })
-        .then(function () {
-            characterID = currentCharacter.characterID
-            fetch(`${requestConstantComics}${characterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`)
-                .then(function (response) {
-                    return response.json();
-                })
-                .then(function (data) {
-                    // console.log(data.data.results[0].title);
-                    let comicList = new Comics(data);
-                    let comicObject = comicList.getListOfComics();
-                    console.log(comicObject[1].description);
-                    console.log(comicObject.description);
-                })
-            console.log(currentCharacter.name)
-            console.log(currentCharacter.description)
-            console.log(currentCharacter.imageURL)
-        })
-        .catch(() => {
-            console.log('character not found');
-        })
+class ApiFetch {
+
+    constructor(characterName) {
+        //this.characterName = characterName;
+        this.currentCharacter = {};
+        this.characterID = 0;
+        this.comicListArray = [];
+        this.charactersURL = `${requestConstantCharacters}?name=${characterName}&ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
+    }
+    async getResponse() {
+        // console.log("apiFetch was triggered");
+        console.log(this.charactersURL);
+        fetch(this.charactersURL)
+            .then(function (response) {
+                // console.log('hitting fetch');
+                return response.json()
+            })
+            .then(function (data) {
+                console.log(data);
+                let newCharacter = new Character(data);
+                this.currentCharacter = newCharacter;
+                console.log("inside ApiFetch :" + this.currentCharacter.name);
+            })
+            .then(function () {
+                this.characterID = this.currentCharacter.characterID
+                const secondURL = `${requestConstantComics}${this.characterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
+                console.log(secondURL);
+                fetch(secondURL)
+                    .then(function (response) {
+                        return response.json();
+                    })
+                    .then(function (data) {
+                        // console.log(data.data.results[0].title);
+                        let tempComicList = new Comics(data);
+                        this.comicListArray = tempComicList.getListOfComics();
+                        // console.log(comicObject[1].description);
+                        // console.log(comicObject.description);
+                    })
+                // console.log(currentCharacter.name)
+
+                // console.log(currentCharacter.description)
+                // console.log(currentCharacter.imageURL)
+            })
+            .catch(() => {
+                console.log('character not found');
+            })
+        //console.log("inside ApiFetch: " + this.currentCharacter);
+        // return this.currentCharacter;
+    }
 }
 
 // setTimeout(() => {
@@ -3936,7 +3955,7 @@ const apiFetch = (characterName) => {
 // data.results[2].description
 // console.log(pulledData.results[0].id);
 
-module.exports = apiFetch;
+module.exports = ApiFetch;
 },{"./character":26,"./comics":27,"marvel-api-hash-generator":4,"node-fetch":6}],26:[function(require,module,exports){
 
 let pictureNamingConvention = '/portrait_uncanny.jpg';
@@ -4001,22 +4020,36 @@ class Comics {
 //export default Comics;
 module.exports = Comics;
 },{}],28:[function(require,module,exports){
-const apiFetch = require('./components/apiFetch');
+const ApiFetch = require('./components/apiFetch');
 
 
 
 const searchBar = () => {
     let searchInput = document.getElementById('searchInput');
     let unformattedCharacter = searchInput.value;
+    let headerName = document.getElementById('name');
+    let paragraphDescription = document.getElementById('description');
     if (unformattedCharacter === "") {
         console.log('text box cannot be blank')
     }
     else {
         let formattedCharacter = unformattedCharacter.split(" ").join("%20");
         // console.log(formattedCharacter);
-        apiFetch(formattedCharacter);
+        let tempApi = new ApiFetch(formattedCharacter);
+        tempApi.getResponse();
         //return characterName;
+        //eaderName.innerText = tempApi.currentCharacter['name'];        
+
+        setTimeout(() => {
+            console.log("inside index: " + tempApi.currentCharacter.name);
+        }, 3000)
+        console.log("inside index2: " + tempApi.currentCharacter.name);
+
+
+        // console.log(tempApi.currentCharacter);
+        // console.log(tempApi);
     }
+
 }
 document.querySelector("#searchButton").addEventListener("click", searchBar)
 // console.log(document);

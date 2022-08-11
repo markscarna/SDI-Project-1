@@ -23,12 +23,6 @@ var character = {
 const requestConstantCharacters = 'https://gateway.marvel.com/v1/public/characters';
 const requestConstantComics = 'http://gateway.marvel.com/v1/public/characters/';
 
-
-//const comicsURL = `${requestConstantComics}${characterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
-
-
-// console.log(exampleUrl);
-//consider chaining api calls, add catch statements
 const apiFetch = (characterName) => {
     // console.log("apiFetch was triggered");
     const charactersURL = `${requestConstantCharacters}?name=${characterName}&ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
@@ -46,35 +40,30 @@ const apiFetch = (characterName) => {
                     return response.json();
                 })
                 .then(function (data) {
-                    // console.log(data.data.results[0].title);
                     let comicList = new Comics(data);
                     let comicObject = comicList.getListOfComics();
                     character.comicBooks.push(comicObject);
-                    // console.log(comicObject[1].description);
                 })
             character.name = currentCharacter.name;
             character.description = currentCharacter.description;
             character.imageURL = currentCharacter.imageURL;
 
         })
-        .catch(() => {
+        .catch((e) => {
+            console.log(e);
             console.log('character not found');
         })
 }
 
 apiFetch('captain%20america');
+// console.log(character.name);
 
 setTimeout(() => {
     console.log(character.name);
     console.log(character.description);
     console.log(character.imageURL);
     console.log(character.comicBooks);
-}, 2000)
-// setTimeout(() => {
-//     console.log(currCharacter.name)
-//     console.log(currCharacter.name)
-// }, 2000)
-// data.results[2].description
-// console.log(pulledData.results[0].id);
+}, 3000)
+
 
 module.exports = apiFetch;
