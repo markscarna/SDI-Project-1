@@ -54,3 +54,4 @@ getCharacter('thor').then((character) => { getComics(character.characterID).then
 
 
 module.exports = getCharacter;
+module.exports = getComics;
