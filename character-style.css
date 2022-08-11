@@ -1,0 +1,79 @@
+
+.banner{
+    /*Add font; will import character name from marvel API */
+    background-image: url();
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.img-container{
+    /*Backgroung image */
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: url(https://wallpapercave.com/wp/wp4575209.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-item {
+    width: 100px
+    border 1px solid #333
+    background-color #544dab
+}
+
+.flexbox-item-1 {
+    min-height: 
+    flex-grow 
+}
+
+.flexbox-item-2 {
+    min-height: 
+    flex-grow
+}
+
+.flexbox-item-3 {
+    min-height: 
+    flex-grow
+}
+
+.flexbox-item-4 {
+    min-height: 
+    flex-grow
+}
+
+.flexbox-item-5 {
+    min-height: 
+    flex-grow
+}
+
+
+/*Change positioning to suit character page; This is button to link page*/
+.button-container button{
+    min-width: 109%;
+    height: 19%;
+    top: 25%;
+    left: 23%;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+
+}
+
+.button-container button img{
+    width: 170px;
+    height: 186px;
+    background-color: transparent;
+}
