@@ -8,7 +8,7 @@ body{
 }
 
 .banner{
-    background-image: url(../bootstrap-5.2.0-dist/Assets/images/banner.png);
+    background-image: url(../SDI-Project-1/Assets/images/banner.png);
     height: 20%;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body{
     width: 100%;
     min-height: 100vh;
     padding: 5%;
-    background-image: url(../bootstrap-5.2.0-dist/Assets/images/AvengersPoster.jpeg);
+    background-image: url(../SDI-Project-1/Assets/images/AvengersPoster.jpeg);
     background-position: 50% 25%;
     background-size: cover;
     display: flex;
@@ -32,7 +32,7 @@ body{
 }
 
 .bottom{
-    background-image: url(../bootstrap-5.2.0-dist/Assets/images/banner.png);
+    background-image: url(../SDI-Project-1/Assets/images/banner.png);
     height: 20%;
     background-position: 50% 25%;
     background-repeat: no-repeat;
@@ -58,6 +58,7 @@ body{
     outline: none;
     padding: 24px 20px;
     font-size: 40px;
+    font-weight: bold;
     color: #ffffff
 }
 
