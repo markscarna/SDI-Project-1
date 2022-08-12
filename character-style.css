@@ -24,7 +24,7 @@
 }
 
 
-.flexbox-container {
+.flexbox-container-character {
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
@@ -34,7 +34,7 @@
     width: flex;*/
 }
 
-.flexbox-item {
+.flexbox-item-character {
     /*width: 32%;*/
     margin: 10px;
     margin-bottom: 2%;
@@ -44,31 +44,31 @@
     font-size: 30px;
 }
 
-.item {
+.item-character {
     height: 30vh;
     flex-shrink: 0;
     padding-bottom: .7%;
 }
 
-.flexbox-item-1 {
+.flexbox-item-1-character {
     height: 30vh;
     width: 40vw;
     margin-left: 100px;
-    margin-right: 100px; 
+    margin-right: 100px;
     flex-shrink: 0;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
-.flexbox-item-2 {
+.flexbox-item-2-character {
     height: 30vh;
     width: 70vw;
     opacity: .45;
     background-color: orangered;
 }
 
-.flexbox-item-3 {
+.flexbox-item-3-character {
     height: 20vh;
     width: 40vw;
 }
@@ -76,7 +76,7 @@
 
 
 /*Change positioning to suit character page; This is button to link page*/
-.button-container button {
+.button-container-character button {
     min-width: 109%;
     height: 19%;
     top: 25%;
@@ -87,7 +87,7 @@
 
 }
 
-.button-container button img {
+.button-container-character button img {
     width: 170px;
     height: 186px;
     background-color: transparent;

@@ -18,7 +18,7 @@ body {
 }
 
 
-.img-container {
+.img-container-homepage {
     width: 100%;
     min-height: 100vh;
     padding: 5%;
@@ -78,7 +78,7 @@ body {
     background: transparent;
 }
 
-.button-container {
+.button-container-homepage {
     background-color: transparent;
     border: none;
     position: relative;
@@ -92,7 +92,7 @@ body {
     height: 30%;
 }
 
-.button-container button {
+.button-container-homepage button {
     min-width: 109%;
     height: 19%;
     top: 25%;
@@ -103,20 +103,19 @@ body {
 
 }
 
-<<<<<<< HEAD
-.button-container button img{
+.button-container-homepage button img {
     width: 270px;
     height: 300px;
-=======
-.button-container button img {
-    width: 170px;
-    height: 186px;
->>>>>>> 6af7af74a20bca44bc7811cd375727dddcb7e4a9
-    background-color: transparent;
-
 }
 
-.box {
+/* .button-container-homepage button img {
+    width: 170px;
+    height: 186px;
+    background-color: transparent;
+
+} */
+
+.box-homepage {
     display: flex;
     flex-direction: column;
     height: 500px;

@@ -26,7 +26,7 @@ const getCharacter = (characterName) => {
         })
         .catch((e) => {
             console.log(e);
-            console.log('character not found');
+            alert('character not found');
         })
 }
 
