@@ -9,14 +9,13 @@ const publicKey = '489d289854fbfcb356ded93a89e0451d';
 const hashValue = getApiHash(timeStamp, privateKey, publicKey);
 
 const requestConstantCharacters = 'https://gateway.marvel.com/v1/public/characters';
-const requestConstantComics = 'http://gateway.marvel.com/v1/public/characters/';
+
 
 const getCharacter = (characterName) => {
     let currentCharacter = {};
-    let characterID = 0;
-    let comicsArray = [];
 
-    const charactersURL = `${requestConstantCharacters}?name=${characterName}&ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
+    const charactersURL = `${requestConstantCharacters}?name=${characterName}&ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=99`;
+
     return fetch(charactersURL)
         .then(function (response) {
             return response.json()
@@ -31,8 +30,10 @@ const getCharacter = (characterName) => {
         })
 }
 
-const getComics = (characterID) => {
-    const comicsURL = `${requestConstantComics}${characterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=10`;
+
+const getComics = (testCharacterID) => {
+    const requestConstantComics = 'http://gateway.marvel.com/v1/public/characters/';
+    const comicsURL = `${requestConstantComics}${testCharacterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
     return fetch(comicsURL)
         .then(function (response) {
             return response.json()
@@ -49,9 +50,13 @@ const getComics = (characterID) => {
 
 // getComics(1009351).then((comics) => { console.log(comics[0].name) })
 // getCharacter('hulk').then((character) => { console.log(character.characterID) });
-getCharacter('thor').then((character) => { getComics(character.characterID).then((comics) => { console.log(comics[0].name) }) });
+//getCharacter('thor').then((character) => { getComics(character.characterID).then((comics) => { console.log(comics[0].name) }) });
 
 
+module.exports = {
+    getCharacter,
+    getComics
+}
 
-module.exports = getCharacter;
-module.exports = getComics;
+// module.exports = getCharacter;
+// module.exports = getComics;

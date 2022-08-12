@@ -3877,85 +3877,63 @@ const getApiHash = require('marvel-api-hash-generator').getApiHash;
 const Character = require('./character');
 const Comics = require('./comics');
 
-
 const timeStamp = Date.now();
 const privateKey = '07fc721ea9a1069019e21eda9504d830177110df';
 const publicKey = '489d289854fbfcb356ded93a89e0451d';
 const hashValue = getApiHash(timeStamp, privateKey, publicKey);
 
-//let characterName = 'iron%20man';
-let characterID = 0;
-let currentCharacter = {};
-
-
 const requestConstantCharacters = 'https://gateway.marvel.com/v1/public/characters';
-const requestConstantComics = 'http://gateway.marvel.com/v1/public/characters/';
 
 
-//const comicsURL = `${requestConstantComics}${characterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
+const getCharacter = (characterName) => {
+    let currentCharacter = {};
 
+    const charactersURL = `${requestConstantCharacters}?name=${characterName}&ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=99`;
 
-// console.log(exampleUrl);
-//consider chaining api calls, add catch statements
-class ApiFetch {
-
-    constructor(characterName) {
-        //this.characterName = characterName;
-        this.currentCharacter = {};
-        this.characterID = 0;
-        this.comicListArray = [];
-        this.charactersURL = `${requestConstantCharacters}?name=${characterName}&ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
-    }
-    async getResponse() {
-        // console.log("apiFetch was triggered");
-        console.log(this.charactersURL);
-        fetch(this.charactersURL)
-            .then(function (response) {
-                // console.log('hitting fetch');
-                return response.json()
-            })
-            .then(function (data) {
-                console.log(data);
-                let newCharacter = new Character(data);
-                this.currentCharacter = newCharacter;
-                console.log("inside ApiFetch :" + this.currentCharacter.name);
-            })
-            .then(function () {
-                this.characterID = this.currentCharacter.characterID
-                const secondURL = `${requestConstantComics}${this.characterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
-                console.log(secondURL);
-                fetch(secondURL)
-                    .then(function (response) {
-                        return response.json();
-                    })
-                    .then(function (data) {
-                        // console.log(data.data.results[0].title);
-                        let tempComicList = new Comics(data);
-                        this.comicListArray = tempComicList.getListOfComics();
-                        // console.log(comicObject[1].description);
-                        // console.log(comicObject.description);
-                    })
-                // console.log(currentCharacter.name)
-
-                // console.log(currentCharacter.description)
-                // console.log(currentCharacter.imageURL)
-            })
-            .catch(() => {
-                console.log('character not found');
-            })
-        //console.log("inside ApiFetch: " + this.currentCharacter);
-        // return this.currentCharacter;
-    }
+    return fetch(charactersURL)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (data) {
+            currentCharacter = new Character(data);
+            return currentCharacter;
+        })
+        .catch((e) => {
+            console.log(e);
+            console.log('character not found');
+        })
 }
 
-// setTimeout(() => {
-//     console.log(currCharacter.name)
-//     console.log(currCharacter.name)
-// }, 2000)
-// data.results[2].description
-// console.log(pulledData.results[0].id);
 
-module.exports = ApiFetch;
+const getComics = (testCharacterID) => {
+    const requestConstantComics = 'http://gateway.marvel.com/v1/public/characters/';
+    const comicsURL = `${requestConstantComics}${testCharacterID}/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=100`;
+    return fetch(comicsURL)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (data) {
+            let comics = new Comics(data);
+            return comics.getListOfComics();
+        })
+
+}
+
+// let arrayOfPromises = [getCharacter('hulk'), getComics(1009351)];
+//Promise.all(arrayOfPromises).then((data) => { console.log(data[1][0].name) });
+
+// getComics(1009351).then((comics) => { console.log(comics[0].name) })
+// getCharacter('hulk').then((character) => { console.log(character.characterID) });
+//getCharacter('thor').then((character) => { getComics(character.characterID).then((comics) => { console.log(comics[0].name) }) });
+
+
+module.exports = {
+    getCharacter,
+    getComics
+}
+
+// module.exports = getCharacter;
+// module.exports = getComics;
 },{"./character":26,"./comics":27,"marvel-api-hash-generator":4,"node-fetch":6}],26:[function(require,module,exports){
 
 let pictureNamingConvention = '/portrait_uncanny.jpg';
@@ -3966,7 +3944,7 @@ class Character {
         this.name = characterObject['data']['results'][0]['name'];
         this.description = characterObject['data']['results'][0]['description']
         this.imageURL = characterObject['data']['results'][0]['thumbnail']['path'] + pictureNamingConvention;
-        this.listOfComics = characterObject['data']['results'][0]['comics']['collectionURI'];
+        this.listOfComics = [];
         this.characterID = characterObject['data']['results'][0]['id'];
         if (this.description === "") {
             this.description = 'There is no description available for this character.'
@@ -4020,37 +3998,44 @@ class Comics {
 //export default Comics;
 module.exports = Comics;
 },{}],28:[function(require,module,exports){
-const ApiFetch = require('./components/apiFetch');
+// const getCharacter = require('./components/apiFetch');
+// const getComics = require('./components/apiFetch');
+var myFunctions = require("./components/apiFetch")
 
+const buildCharacterPage = (characterObject) => {
+    document.querySelector("#home-page").innerHTML = `<div id="character-page">
+        <div class="banner-character"> </div>
+        <div class="img-container-character">
+        <div class="flexbox-container">    
+                <img class="item"
+                    src="${characterObject.imageURL}">
+                <div class="flexbox-item flexbox-item-1">${characterObject.description}</div>
+                <div class="flexbox-item flexbox-item-2"></div>
+                <div class="flexbox-item flexbox-item-3"></div>
+            </div>`
+}
 
 
 const searchBar = () => {
     let searchInput = document.getElementById('searchInput');
     let unformattedCharacter = searchInput.value;
     let headerName = document.getElementById('name');
-    let paragraphDescription = document.getElementById('description');
     if (unformattedCharacter === "") {
         console.log('text box cannot be blank')
     }
     else {
-        let formattedCharacter = unformattedCharacter.split(" ").join("%20");
-        // console.log(formattedCharacter);
-        let tempApi = new ApiFetch(formattedCharacter);
-        tempApi.getResponse();
-        //return characterName;
-        //eaderName.innerText = tempApi.currentCharacter['name'];        
-
-        setTimeout(() => {
-            console.log("inside index: " + tempApi.currentCharacter.name);
-        }, 3000)
-        console.log("inside index2: " + tempApi.currentCharacter.name);
+        let formattedCharacter = encodeURIComponent(unformattedCharacter);
+        let characterName = "";
+        myFunctions.getCharacter(formattedCharacter).then((character) => { buildCharacterPage(character) })
 
 
-        // console.log(tempApi.currentCharacter);
-        // console.log(tempApi);
+
+        // myFunctions.getCharacter(formattedCharacter).then((character) => { console.log(character) });
+        // myFunctions.getComics(1009368).then((comic) => { console.log(comic) });
+        // myFunctions.getCharacter(formattedCharacter).then((character) => { myFunctions.getComics(character.characterID).then((comics) => { console.log(comics[0].name) }) });
     }
-
 }
+
 document.querySelector("#searchButton").addEventListener("click", searchBar)
 // console.log(document);
 

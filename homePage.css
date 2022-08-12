@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     height: 100%;
 }
 
-body{
+body {
     width: 100%;
 }
 
-.banner{
+.banner-homepage {
     background-image: url(../SDI-Project-1/Assets/images/banner.png);
     height: 20%;
     background-position: center;
@@ -18,7 +18,7 @@ body{
 }
 
 
-.img-container{
+.img-container {
     width: 100%;
     min-height: 100vh;
     padding: 5%;
@@ -28,10 +28,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.bottom{
+.bottom {
     background-image: url(../SDI-Project-1/Assets/images/banner.png);
     height: 20%;
     background-position: 50% 25%;
@@ -41,17 +41,17 @@ body{
 
 }
 
-.search-bar{
+.search-bar {
     width: 50%;
     height: 100px;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
     border-radius: 60px;
     padding: 10px 20px;
 }
 
-.search-bar input{
+.search-bar input {
     background: transparent;
     flex: 1;
     border: 0;
@@ -62,15 +62,15 @@ body{
     color: #ffffff
 }
 
-::placeholder{
+::placeholder {
     color: #ffffff;
 }
 
-.search-bar button img{
-width: 60px;
+.search-bar button img {
+    width: 60px;
 }
 
-.search-bar button{
+.search-bar button {
     border: 0;
     border-radius: 50%;
     width: 60px;
@@ -78,7 +78,7 @@ width: 60px;
     background: transparent;
 }
 
-.button-container{
+.button-container {
     background-color: transparent;
     border: none;
     position: relative;
@@ -92,7 +92,7 @@ width: 60px;
     height: 30%;
 }
 
-.button-container button{
+.button-container button {
     min-width: 109%;
     height: 19%;
     top: 25%;
@@ -103,15 +103,29 @@ width: 60px;
 
 }
 
+<<<<<<< HEAD
 .button-container button img{
     width: 270px;
     height: 300px;
+=======
+.button-container button img {
+    width: 170px;
+    height: 186px;
+>>>>>>> 6af7af74a20bca44bc7811cd375727dddcb7e4a9
     background-color: transparent;
 
 }
+
 .box {
     display: flex;
     flex-direction: column;
     height: 500px;
     width: 200px;
-  }
+}
+
+/* #character-page {
+    display: none;
+} */
+/* #home-page {
+    display: none;
+} */
