@@ -11,7 +11,7 @@
 }
 .img-container{
     /*Backgroung image */
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 100vh;
     padding: 5%;
     background-image: url(https://wallpapercave.com/wp/wp4575209.jpg);

@@ -2,4 +2,80 @@
     display: flex;
     flex-direction: column;
     height: 500px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
   }
+.box button{
+  min-width: 60vw;
+  min-height: 100px;
+  color: white;
+  text-shadow: 5px 5px black;
+  font-size: 60px;
+  font-family: 'Comic Sans MS';
+  font-weight: bolder;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://www.gamespot.com/a/uploads/original/1581/15811374/3732418-marvel%27s-avengers-review-promothumb.jpg);
+}
+
+  .img-container{
+    /*Backgroung image */
+    min-width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: url(https://wallpapercave.com/wp/wp4575209.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.homepage-button-container button{
+  min-width: 109%;
+  height: 19%;
+  padding: 25px;
+  top: 25%;
+  left: 23%;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+
+}
+
+.homepage-button-container button img{
+  width: 170px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: relative;
+}
+
+.homepage-button-container button:hover::before,
+.homepage-button-container button:hover::after {
+  position: absolute;
+  content: "Return to HomePage";
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+  justify-items: center;
+  top: 9rem;
+  left: 50%;
+  height:50px;
+  width:50px;
+  transform: translateX(-50%);
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

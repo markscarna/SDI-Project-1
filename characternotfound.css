@@ -1,0 +1,79 @@
+.img-container{
+    /*Backgroung image */
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: url(../SDI-Project-1/Assets/images/Loki.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button-container button{
+    min-width: 109%;
+    height: 19%;
+    padding: 25px;
+    top: 25%;
+    left: 23%;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    flex-wrap: row;
+}
+
+.button-container button img{
+    width: 170px;
+    height: 186px;
+    background-color: transparent;
+}
+
+.homepage-button-container button{
+    min-width: 109%;
+    height: 19%;
+    padding: 25px;
+    top: 25%;
+    left: 23%;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+
+}
+
+.homepage-button-container button img{
+    width: 170px;
+    background-color: transparent;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(182, 169, 52);
+    font-family: 'Comic Sans MS';
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 450px;
+    color:rgb(182, 169, 52);
+    font-family: 'Comic Sans MS';
+    
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
