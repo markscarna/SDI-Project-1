@@ -1,4 +1,4 @@
-let pictureNamingConvention = '/portrait_medium.jpg';
+let pictureNamingConvention = '/portrait_incredible.jpg';
 
 class Comics {
     constructor(comicsObject) {

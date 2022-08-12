@@ -1,4 +1,4 @@
-.img-container {
+.img-container-cnf {
     /*Backgroung image */
     min-width: 100vw;
     min-height: 100vh;
@@ -12,7 +12,7 @@
 
 }
 
-.button-container button {
+.homepage-button-container-cnf button {
     min-width: 109%;
     height: 19%;
     padding: 25px;
@@ -24,13 +24,13 @@
     flex-wrap: row;
 }
 
-.button-container button img {
+.homepage-button-container-cnf button img {
     width: 170px;
     height: 186px;
     background-color: transparent;
 }
 
-.homepage-button-container button {
+.links-page-button-container-cnf button {
     min-width: 109%;
     height: 19%;
     padding: 25px;
@@ -42,14 +42,14 @@
 
 }
 
-.homepage-button-container button img {
+.links-page-button-container-cnf button img {
     width: 170px;
     background-color: transparent;
     border-radius: 50%;
     padding-bottom: 20px;
 }
 
-h1 {
+#cnf {
     font-size: 72px;
     text-align: center;
     font-weight: bold;
@@ -57,7 +57,7 @@ h1 {
     font-family: 'Comic Sans MS';
 }
 
-h3 {
+#cnf1 {
     font-size: 36px;
     text-align: center;
     font-weight: bold;
@@ -67,7 +67,7 @@ h3 {
 
 }
 
-#footer {
+#footer-cnf {
     position: absolute;
     bottom: 0;
     width: 100%;

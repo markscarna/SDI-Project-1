@@ -1,19 +1,44 @@
-.banner-character {
-    /*Add font; will import character name from marvel API */
-    background-image: url();
-    height: 20%;
+/*.banner-character {
+    width: 100%;
+    height: 10vh;
+    Color: white;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 
+}*/
+#header {
+    Color: white;
+    background-color: black;
+    background-position: center;
+    font-size: 900%;
+    text-align: center;
+    justify-content: center;
+    height: 15vh;
+
+}
+
+.carousel-item {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner {
+    align-items: center;
+    justify-content: center;
+
 }
 
 .img-container-character {
+    margin: 0;
     /*Backgroung image */
     min-width: 100%;
     min-height: 100vh;
-    padding: 5%;
     background-image: url(https://wallpapercave.com/wp/wp4575209.jpg);
     background-position: 50% 25%;
     background-size: cover;
@@ -45,7 +70,7 @@
 }
 
 .item-character {
-    height: 30vh;
+    height: 472px;
     flex-shrink: 0;
     padding-bottom: .7%;
 }
@@ -59,18 +84,6 @@
     text-align: center;
     /* align-items: center; */
     /* justify-content: center; */
-}
-
-.flexbox-item-2-character {
-    height: 30vh;
-    width: 70vw;
-    opacity: .45;
-    background-color: orangered;
-}
-
-.flexbox-item-3-character {
-    height: 20vh;
-    width: 40vw;
 }
 
 
