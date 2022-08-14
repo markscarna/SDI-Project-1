@@ -1,0 +1,49 @@
+#hero-name{
+    background-color: black;
+    height: 150px;
+    color: white;
+    font-size: 112px;
+    text-align: center;
+    font-weight: bold;
+    font-family: fantasy;
+    
+}
+
+#hero-image{
+    padding-left: 250px;
+    padding-right: 30px;
+    float: left;
+}
+
+#hero-description{
+    font-family: 'Roboto', sans-serif;
+    height: 600px;
+    padding-top: 30px;
+    padding-right: 130px;
+    font-size: 46px;
+    padding-bottom: 150px ;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+body{
+    background-color: #777;
+    background-image: url(./Assets/images/character\ background.jpg);
+    background-size: cover;
+}
+
+.carousel-inner{
+    width: 500px;
+    height: 750px;
+}
+
+#carousel{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;    
+}
+
+#comic-description{
+    float: right;
+}
+

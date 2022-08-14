@@ -13,7 +13,6 @@ const requestConstantCharacters = 'https://gateway.marvel.com/v1/public/characte
 
 const getCharacter = (characterName) => {
     let currentCharacter = {};
-
     const charactersURL = `${requestConstantCharacters}?name=${characterName}&ts=${timeStamp}&apikey=${publicKey}&hash=${hashValue}&limit=99`;
 
     return fetch(charactersURL)
@@ -26,7 +25,26 @@ const getCharacter = (characterName) => {
         })
         .catch((e) => {
             console.log(e);
-            alert('character not found');
+            const characterNotFound = () => {
+                document.querySelector("#home-page").innerHTML = `<div class="img-container-cnf">
+                <div class="banner">
+                    <div class="banner-text">
+                        <h1 id="cnf">CHARACTER NOT FOUND</h1>
+                        <h3 id="cnf1">Follow Heimdall to return home or click on Mjolnir for more Marvel Links</h3>
+                    </div>
+                </div>
+                <footer id="footer-cnf">
+                    <div class="homepage-button-container-cnf">
+                        <button type="button" onclick="location.href='links.html'"><img src="Assets/images/thor12.png"></button>
+                    </div>
+                    <div class="links-page-button-container-cnf">
+                        <button type="button" onclick="location.href='index.html'"><img
+                                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bdb31cf-8741-41b8-b13e-5156cacdec90/d583fqt-aab8831f-e96c-4257-8ddc-9c70cce3deef.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZiZGIzMWNmLTg3NDEtNDFiOC1iMTNlLTUxNTZjYWNkZWM5MFwvZDU4M2ZxdC1hYWI4ODMxZi1lOTZjLTQyNTctOGRkYy05YzcwY2NlM2RlZWYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.l1dF2gQQN6ehJN-89DzBOTC_9xMzWCGZ5W4ugI_FZbw"></button>
+                    </div>
+                </footer>
+            </div>`
+            }
+            characterNotFound();
         })
 }
 
