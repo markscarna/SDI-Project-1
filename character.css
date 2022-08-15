@@ -9,6 +9,13 @@
     
 }
 
+#seen-in {
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+}
+
 #hero-image{
     padding-left: 250px;
     padding-right: 30px;
@@ -21,6 +28,7 @@
     padding-top: 30px;
     padding-right: 130px;
     font-size: 46px;
+    font-weight: bolder; 
     padding-bottom: 150px ;
     margin: 0 auto;
     color: whitesmoke;
