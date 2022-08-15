@@ -51,6 +51,7 @@
   background-color: transparent;
   border-radius: 50%;
   position: relative;
+  padding-top: 100px;
 }
 
 .homepage-button-container1 button:hover::before,
