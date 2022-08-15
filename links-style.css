@@ -34,7 +34,7 @@
     
 }
 
-.homepage-button-container button{
+.homepage-button-container1 button{
   min-width: 109%;
   height: 19%;
   padding: 25px;
@@ -46,15 +46,15 @@
 
 }
 
-.homepage-button-container button img{
+.homepage-button-container1 button img{
   width: 170px;
   background-color: transparent;
   border-radius: 50%;
   position: relative;
 }
 
-.homepage-button-container button:hover::before,
-.homepage-button-container button:hover::after {
+.homepage-button-container1 button:hover::before,
+.homepage-button-container1 button:hover::after {
   position: absolute;
   content: "Return to HomePage";
   color: white;

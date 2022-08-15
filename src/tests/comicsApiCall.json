@@ -1,0 +1,3205 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "© 2022 MARVEL",
+    "attributionText": "Data provided by Marvel. © 2022 MARVEL",
+    "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2022 MARVEL</a>",
+    "etag": "595572bf2cb4a4126cee99be9aa1699e03457484",
+    "data": {
+      "offset": 0,
+      "limit": 20,
+      "total": 2421,
+      "count": 20,
+      "results": [
+        {
+          "id": 98760,
+          "digitalId": 0,
+          "title": "Captain America Epic Collection: Sturm Und Drang (Trade Paperback)",
+          "issueNumber": 0,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2022-08-05T17:06:57-0400",
+          "isbn": "978-1-302-94536-7",
+          "upc": "",
+          "diamondCode": "",
+          "ean": "9781302 945367 54999",
+          "issn": "",
+          "format": "Trade Paperback",
+          "pageCount": 520,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/98760",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/collection/98760/captain_america_epic_collection_sturm_und_drang_trade_paperback?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/34054",
+            "name": "Captain America Epic Collection: Sturm Und Drang (2022)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-08-10T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-05-30T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 49.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/50/62ed84993f381",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/50/62ed84993f381",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 9,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98760/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1317",
+                "name": "Mike Carlin",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/6986",
+                "name": "J. M. DeMatteis",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/3233",
+                "name": "Peter Gillis",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13769",
+                "name": "Bill Mantlo",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5764",
+                "name": "Ron Frenz",
+                "role": "penciller"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/262",
+                "name": "Paul Neary",
+                "role": "penciller"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/199",
+                "name": "Herb Trimpe",
+                "role": "penciller"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13352",
+                "name": "Mike Zeck",
+                "role": "penciller"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                "name": "Jeff Youngquist",
+                "role": "editor"
+              }
+            ],
+            "returned": 9
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98760/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98760/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/218615",
+                "name": "cover from CAPTAIN AMERICA EPIC COLLECTION: STURM UND DRANG TPB (2022) #1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/218616",
+                "name": "story from CAPTAIN AMERICA EPIC COLLECTION: STURM UND DRANG TPB (2022) #1",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98760/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 94664,
+          "digitalId": 0,
+          "title": "Captain America: Sentinel of Liberty (2022) #3",
+          "issueNumber": 3,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2022-04-28T23:42:19-0400",
+          "isbn": "",
+          "upc": "75960620168600311",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/94664",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/94664/captain_america_sentinel_of_liberty_2022_3?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Captain-America-Sentinel-of-Liberty-3/digital-comic/60169?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/32242",
+            "name": "Captain America: Sentinel of Liberty (2022 - Present)"
+          },
+          "variants": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/103577",
+              "name": "Captain America: Sentinel of Liberty (2022) #3 (Variant)"
+            }
+          ],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-08-10T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-07-11T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/30/62ed839d90f4f",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/30/62ed839d90f4f",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94664/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12385",
+                "name": "Carmen Carnero",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14159",
+                "name": "Collin Kelly",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14160",
+                "name": "Jackson Lanzing",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14157",
+                "name": "Alejandro Sanchez",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13046",
+                "name": "Alanna Smith",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13003",
+                "name": "Nolan Woodard",
+                "role": "colorist"
+              }
+            ],
+            "returned": 7
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94664/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94664/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/210449",
+                "name": "cover from Captain America (2021) #3",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/210450",
+                "name": "story from Captain America (2021) #3",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94664/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 103360,
+          "digitalId": 60540,
+          "title": "Avengers Unlimited Infinity Comic (2022) #6",
+          "issueNumber": 6,
+          "variantDescription": "",
+          "description": "The Avengers face a climactic battle with the enemy behind the Black Ledger.",
+          "modified": "2022-08-05T11:13:17-0400",
+          "isbn": "",
+          "upc": "75960620473100611",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Digital Vertical Comic",
+          "pageCount": 6,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "The Avengers face a climactic battle with the enemy behind the Black Ledger."
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/103360",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/103360/avengers_unlimited_infinity_comic_2022_6?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=60540&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/35600",
+            "name": "Avengers Unlimited Infinity Comic (2022 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-08-09T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-07-11T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-08-09T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 0
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/62bf34456dee0",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/62bf34456dee0",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103360/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+                "name": "Tom Brevoort",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14354",
+                "name": "Farid Karami",
+                "role": "penciller (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14319",
+                "name": "David Pepose",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13449",
+                "name": "Chris Sotomayor",
+                "role": "colorist"
+              }
+            ],
+            "returned": 4
+          },
+          "characters": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103360/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+                "name": "Avengers"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009187",
+                "name": "Black Panther"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010338",
+                "name": "Captain Marvel (Carol Danvers)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                "name": "Iron Man"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009583",
+                "name": "She-Hulk (Jennifer Walters)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+                "name": "Thor"
+              }
+            ],
+            "returned": 7
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103360/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/227823",
+                "name": "cover from Avengers Unlimited Infinity Comic (2022) #6",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/227824",
+                "name": "story from Avengers Unlimited Infinity Comic (2022) #6",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103360/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 94916,
+          "digitalId": 0,
+          "title": "Captain America: Heroes Return - The Complete Collection Vol. 2 (Trade Paperback)",
+          "issueNumber": 0,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2022-07-29T16:54:32-0400",
+          "isbn": "978-1-302-93171-1",
+          "upc": "",
+          "diamondCode": "",
+          "ean": "9781302 931711 53999",
+          "issn": "",
+          "format": "Trade Paperback",
+          "pageCount": 368,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/94916",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/collection/94916/captain_america_heroes_return_-_the_complete_collection_vol_2_trade_paperback?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/32310",
+            "name": "Captain America: Heroes Return - The Complete Collection Vol. 2 (2021)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-08-03T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-05-23T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 39.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/62df0268b9b2d",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/60/62df0268b9b2d",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 33,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94916/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4135",
+                "name": "Shannon Blanchard",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4681",
+                "name": "Vincent Evans",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4131",
+                "name": "Matt Hicks",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13568",
+                "name": "Marie Javins",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/128",
+                "name": "Doug Braithwaite",
+                "role": "penciler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5764",
+                "name": "Ron Frenz",
+                "role": "penciler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/175",
+                "name": "Andy Kubert",
+                "role": "penciler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/814",
+                "name": "Pablo Raimondi",
+                "role": "penciler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/605",
+                "name": "Rob Campanella",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/889",
+                "name": "Jesse Delperdang",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1176",
+                "name": "Joe Kubert",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/8125",
+                "name": "Bob Mcleod",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/435",
+                "name": "Al Milgrom",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/527",
+                "name": "Tom Palmer",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2121",
+                "name": "Robin Riggs",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2833",
+                "name": "Denis Rodier",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/159",
+                "name": "Joe Casey",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/9565",
+                "name": "Tom Defalco",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/829",
+                "name": "Jay Faerber",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/7843",
+                "name": "Todd Klein",
+                "role": "letterer"
+              }
+            ],
+            "returned": 20
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94916/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94916/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/210960",
+                "name": "cover from CAPTAIN AMERICA: HEROES RETURN - THE COMPLETE COLLECTION VOL. 2 TPB (2021) #93171",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/210961",
+                "name": "story from CAPTAIN AMERICA: HEROES RETURN - THE COMPLETE COLLECTION VOL. 2 TPB (2021) #93171",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94916/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 103359,
+          "digitalId": 60508,
+          "title": "Avengers Unlimited Infinity Comic (2022) #5",
+          "issueNumber": 5,
+          "variantDescription": "",
+          "description": "\"The Black Ledger,\" Part Five: The mastermind behind the Black Ledger attacks stands revealed! Avengers Assemble!",
+          "modified": "2022-07-31T20:51:28-0400",
+          "isbn": "",
+          "upc": "75960620473100511",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Digital Vertical Comic",
+          "pageCount": 8,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "\"The Black Ledger,\" Part Five: The mastermind behind the Black Ledger attacks stands revealed! Avengers Assemble!"
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/103359",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/103359/avengers_unlimited_infinity_comic_2022_5?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=60508&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/35600",
+            "name": "Avengers Unlimited Infinity Comic (2022 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-08-02T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-07-04T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-08-02T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 0
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/10/62b0870d2128f",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/10/62b0870d2128f",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103359/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14430",
+                "name": "Dc Alonso",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+                "name": "Tom Brevoort",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14354",
+                "name": "Farid Karami",
+                "role": "penciller (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14319",
+                "name": "David Pepose",
+                "role": "writer"
+              }
+            ],
+            "returned": 4
+          },
+          "characters": {
+            "available": 5,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103359/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+                "name": "Avengers"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009187",
+                "name": "Black Panther"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010338",
+                "name": "Captain Marvel (Carol Danvers)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009471",
+                "name": "Nick Fury"
+              }
+            ],
+            "returned": 5
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103359/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/227821",
+                "name": "cover from Avengers Unlimited Infinity Comic (2022) #5",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/227822",
+                "name": "story from Avengers Unlimited Infinity Comic (2022) #5",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103359/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 92201,
+          "digitalId": 0,
+          "title": "Avengers (2018) #57",
+          "issueNumber": 57,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2022-06-27T12:37:48-0400",
+          "isbn": "",
+          "upc": "75960608857705711",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "2644-1616",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/92201",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/92201/avengers_2018_57?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Avengers-57/digital-comic/59588?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/24229",
+            "name": "Avengers (2018 - Present)"
+          },
+          "variants": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/102602",
+              "name": "Avengers (2018) #57 (Variant)"
+            }
+          ],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-07-13T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-05-30T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/62b9e0de53718",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/62b9e0de53718",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/92201/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/11463",
+                "name": "Jason Aaron",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+                "name": "Tom Brevoort",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13021",
+                "name": "David Curiel",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12426",
+                "name": "Javier Garron",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+                "name": "Vc Cory Petit",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14265",
+                "name": "Alex Sinclair",
+                "role": "colorist (cover)"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/92201/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+                "name": "Avengers"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1014318",
+                "name": "Phoenix Force"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009664",
+                "name": "Thor"
+              }
+            ],
+            "returned": 4
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/92201/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/205486",
+                "name": "cover from Avengers (2018) #57",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/205487",
+                "name": "story from Avengers (2018) #57",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/92201/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 103355,
+          "digitalId": 60325,
+          "title": "Avengers Unlimited Infinity Comic (2022) #1",
+          "issueNumber": 1,
+          "variantDescription": "",
+          "description": "\"The Black Ledger,\" Part One: Captain America and Iron Man’s sparring session is interrupted by two classic Avengers villains: Taskmaster and corporate saboteur Ghost! But both these foes seem a touch too prepared… Who is the mysterious figure behind this attack? And what are their motives against Earth’s Mightiest Heroes? ",
+          "modified": "2022-07-12T04:31:57-0400",
+          "isbn": "",
+          "upc": "75960620473100111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Digital Vertical Comic",
+          "pageCount": 8,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "\"The Black Ledger,\" Part One: Captain America and Iron Man’s sparring session is interrupted by two classic Avengers villains: Taskmaster and corporate saboteur Ghost! But both these foes seem a touch too prepared… Who is the mysterious figure behind this attack? And what are their motives against Earth’s Mightiest Heroes? "
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/103355",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/103355/avengers_unlimited_infinity_comic_2022_1?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=60325&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/35600",
+            "name": "Avengers Unlimited Infinity Comic (2022 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-07-12T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-06-13T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-07-12T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 0
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/629f7ff239002",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/629f7ff239002",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 5,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103355/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14430",
+                "name": "Dc Alonso",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+                "name": "Tom Brevoort",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14354",
+                "name": "Farid Karami",
+                "role": "penciller"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14319",
+                "name": "David Pepose",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+                "name": "Vc Cory Petit",
+                "role": "letterer"
+              }
+            ],
+            "returned": 5
+          },
+          "characters": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103355/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+                "name": "Avengers"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                "name": "Iron Man"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+                "name": "Taskmaster"
+              }
+            ],
+            "returned": 4
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103355/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/227813",
+                "name": "cover from Avengers Unlimited Infinity Comic (2022) #1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/227814",
+                "name": "story from Avengers Unlimited Infinity Comic (2022) #1",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/103355/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 94663,
+          "digitalId": 0,
+          "title": "Captain America: Sentinel of Liberty (2022) #2",
+          "issueNumber": 2,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2022-03-31T09:05:34-0400",
+          "isbn": "",
+          "upc": "75960620168600211",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/94663",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/94663/captain_america_sentinel_of_liberty_2022_2?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Captain-America-Sentinel-of-Liberty-2/digital-comic/59985?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/32242",
+            "name": "Captain America: Sentinel of Liberty (2022 - Present)"
+          },
+          "variants": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/102896",
+              "name": "Captain America: Sentinel of Liberty (2022) #2 (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/102979",
+              "name": "Captain America: Sentinel of Liberty (2022) #2 (Variant)"
+            }
+          ],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-07-06T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-06-06T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/20/62b9e08d38198",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/20/62b9e08d38198",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94663/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12385",
+                "name": "Carmen Carnero",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14159",
+                "name": "Collin Kelly",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14160",
+                "name": "Jackson Lanzing",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14157",
+                "name": "Alejandro Sanchez",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13046",
+                "name": "Alanna Smith",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13003",
+                "name": "Nolan Woodard",
+                "role": "colorist"
+              }
+            ],
+            "returned": 7
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94663/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94663/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/210447",
+                "name": "cover from Captain America (2021) #2",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/210448",
+                "name": "story from Captain America (2021) #2",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94663/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 94662,
+          "digitalId": 0,
+          "title": "Captain America: Sentinel of Liberty (2022) #1",
+          "issueNumber": 1,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2022-04-14T13:04:36-0400",
+          "isbn": "",
+          "upc": "75960620168600111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 40,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/94662",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/94662/captain_america_sentinel_of_liberty_2022_1?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Captain-America-Sentinel-of-Liberty-1/digital-comic/59591?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/32242",
+            "name": "Captain America: Sentinel of Liberty (2022 - Present)"
+          },
+          "variants": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/102605",
+              "name": "Captain America: Sentinel of Liberty (2022) #1 (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/102606",
+              "name": "Captain America: Sentinel of Liberty (2022) #1 (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/102607",
+              "name": "Captain America: Sentinel of Liberty (2022) #1 (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/102608",
+              "name": "Captain America: Sentinel of Liberty (2022) #1 (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/102609",
+              "name": "Captain America: Sentinel of Liberty (2022) #1 (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/102610",
+              "name": "Captain America: Sentinel of Liberty (2022) #1 (Variant)"
+            }
+          ],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-06-15T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-05-16T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/62b9e160ebc95",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/62b9e160ebc95",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94662/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12385",
+                "name": "Carmen Carnero",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14159",
+                "name": "Collin Kelly",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14160",
+                "name": "Jackson Lanzing",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14157",
+                "name": "Alejandro Sanchez",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13046",
+                "name": "Alanna Smith",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13003",
+                "name": "Nolan Woodard",
+                "role": "colorist"
+              }
+            ],
+            "returned": 7
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94662/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94662/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/210445",
+                "name": "cover from Captain America (2021) #1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/210446",
+                "name": "story from Captain America (2021) #1",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/94662/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 98662,
+          "digitalId": 59125,
+          "title": "Captain America (2018)",
+          "issueNumber": 0,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2021-12-22T09:02:43-0500",
+          "isbn": "",
+          "upc": "75960620284300011",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 40,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/98662",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/98662/captain_america_2018?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Captain-America-0/digital-comic/59125?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=59125&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/24503",
+            "name": "Captain America (2018 - Present)"
+          },
+          "variants": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/100773",
+              "name": "Captain America (2018) (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/100814",
+              "name": "Captain America (2018) (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/100815",
+              "name": "Captain America (2018) (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/100816",
+              "name": "Captain America (2018) (Variant)"
+            }
+          ],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-04-20T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-03-21T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-07-25T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2022-03-29T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/d0/6259cb8887864",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/d0/6259cb8887864",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98662/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13413",
+                "name": "Mattia De Iulis",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14159",
+                "name": "Collin Kelly",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14160",
+                "name": "Jackson Lanzing",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14150",
+                "name": "Tochi Onyebuchi",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/63",
+                "name": "Alex Ross",
+                "role": "painter (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13046",
+                "name": "Alanna Smith",
+                "role": "editor"
+              }
+            ],
+            "returned": 7
+          },
+          "characters": {
+            "available": 3,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98662/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009740",
+                "name": "Arnim Zola"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017575",
+                "name": "Captain America (Sam Wilson)"
+              }
+            ],
+            "returned": 3
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98662/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/218417",
+                "name": "cover",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/218418",
+                "name": "story",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98662/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 98582,
+          "digitalId": 57987,
+          "title": "Marvel Meow Infinity Comic (2022) #3",
+          "issueNumber": 3,
+          "variantDescription": "",
+          "description": "Dr. Shapiro unites the Super Hero cats to please their owners!",
+          "modified": "2022-03-28T16:25:03-0400",
+          "isbn": "",
+          "upc": "75960620276800311",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Digital Vertical Comic",
+          "pageCount": 3,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "Dr. Shapiro unites the Super Hero cats to please their owners!"
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/98582",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/98582/marvel_meow_infinity_comic_2022_3?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=57987&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/34009",
+            "name": "Marvel Meow Infinity Comic (2022)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-04-01T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-02-28T00:00:00-0500"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-04-01T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 0
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/80/621d07e1ea24a",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/80/621d07e1ea24a",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98582/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13669",
+                "name": "Nao Fuji",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14237",
+                "name": "Caitlin O'connell",
+                "role": "editor"
+              }
+            ],
+            "returned": 2
+          },
+          "characters": {
+            "available": 9,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98582/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+                "name": "Avengers"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009185",
+                "name": "Black Cat"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009187",
+                "name": "Black Panther"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009191",
+                "name": "Blade"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010338",
+                "name": "Captain Marvel (Carol Danvers)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017833",
+                "name": "Ghost Rider (Robbie Reyes)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                "name": "Iron Man"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+                "name": "Spider-Man (Peter Parker)"
+              }
+            ],
+            "returned": 9
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98582/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/218233",
+                "name": "cover from Marvel Meow Infinity Comic (2022)",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/218234",
+                "name": "story from Marvel Meow Infinity Comic (2022)",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98582/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 98403,
+          "digitalId": 58794,
+          "title": "Captain America/Iron Man (2021) #5",
+          "issueNumber": 5,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2021-11-09T09:03:47-0500",
+          "isbn": "",
+          "upc": "75960620252200511",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/98403",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/98403/captain_americairon_man_2021_5?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Captain-America-Iron-Man-5/digital-comic/58794?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=58794&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/33953",
+            "name": "Captain America/Iron Man (2021 - 2022)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-03-23T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-02-21T00:00:00-0500"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-06-27T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2022-03-09T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/00/6227c9d73f446",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/00/6227c9d73f446",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98403/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12861",
+                "name": "Derek Landy",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+                "name": "Rachelle Rosenberg",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/63",
+                "name": "Alex Ross",
+                "role": "painter (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13046",
+                "name": "Alanna Smith",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13816",
+                "name": "Angel Unzueta",
+                "role": "inker"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98403/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                "name": "Iron Man"
+              }
+            ],
+            "returned": 2
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98403/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217875",
+                "name": "cover from Captain America/Iron Man (2021) #5",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217876",
+                "name": "story from Captain America/Iron Man (2021) #5",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98403/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 98370,
+          "digitalId": 0,
+          "title": "Captain America Epic Collection: Arena Of Death (Trade Paperback)",
+          "issueNumber": 0,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2022-03-15T12:21:47-0400",
+          "isbn": "978-1-302-93445-3",
+          "upc": "",
+          "diamondCode": "",
+          "ean": "9781302 934453 54499",
+          "issn": "",
+          "format": "Trade Paperback",
+          "pageCount": 496,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/98370",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/collection/98370/captain_america_epic_collection_arena_of_death_trade_paperback?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/33928",
+            "name": "Captain America Epic Collection: Arena Of Death (2022)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-03-16T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2021-12-20T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 44.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/622b85d163cbf",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/622b85d163cbf",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 39,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98370/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1865",
+                "name": "Diana Albers",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2687",
+                "name": "Jon Babcock",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1928",
+                "name": "Steve Dutro",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1892",
+                "name": "Michael Heisler",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1819",
+                "name": "Rick Parker",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2112",
+                "name": "Larry Alexander",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13353",
+                "name": "Charles Barnett III",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2815",
+                "name": "Kathryn Bolinger",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5823",
+                "name": "Danilo Bulanadi",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13383",
+                "name": "Pam Eklund",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2717",
+                "name": "Fred Fredericks",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2308",
+                "name": "Grant Miehm",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2376",
+                "name": "James Brock",
+                "role": "penciler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/3535",
+                "name": "Steve Butler",
+                "role": "penciler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5814",
+                "name": "Richard Levins",
+                "role": "penciler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/3703",
+                "name": "Barry Dutter",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/259",
+                "name": "Mark Gruenwald",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1286",
+                "name": "Howard Mackie",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1038",
+                "name": "John Kalisz",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/382",
+                "name": "Rik Levins",
+                "role": "penciller (cover)"
+              }
+            ],
+            "returned": 20
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98370/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98370/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217809",
+                "name": "cover from CAPTAIN AMERICA EPIC COLLECTION: ARENA OF DEATH TPB (2022) #1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217810",
+                "name": "story from CAPTAIN AMERICA EPIC COLLECTION: ARENA OF DEATH TPB (2022) #1",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98370/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 96216,
+          "digitalId": 58800,
+          "title": "Devil's Reign (2021) #5",
+          "issueNumber": 5,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2021-11-09T09:04:24-0500",
+          "isbn": "",
+          "upc": "75960620208900511",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/96216",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/96216/devils_reign_2021_5?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Devil-s-Reign-5/digital-comic/58800?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=58800&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/32952",
+            "name": "Devil's Reign (2021 - 2022)"
+          },
+          "variants": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/100230",
+              "name": "Devil's Reign (2021) #5 (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/100577",
+              "name": "Devil's Reign (2021) #5 (Variant)"
+            }
+          ],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-03-09T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-02-07T00:00:00-0500"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-06-13T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2022-02-24T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/6227c6afd6058",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/6227c6afd6058",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/96216/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/11748",
+                "name": "Marco Checchetto",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/10172",
+                "name": "Vc Clayton Cowles",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12457",
+                "name": "Edward Devin Lewis",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13058",
+                "name": "Marcio Menyz",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+                "name": "Matthew Wilson",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12494",
+                "name": "Chip Zdarsky",
+                "role": "writer"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/96216/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+                "name": "Daredevil"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009288",
+                "name": "Elektra"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009389",
+                "name": "Kingpin"
+              }
+            ],
+            "returned": 4
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/96216/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/213497",
+                "name": "cover from Fear King (2021) #5",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/213498",
+                "name": "story from Fear King (2021) #5",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/96216/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 98402,
+          "digitalId": 58616,
+          "title": "Captain America/Iron Man (2021) #4",
+          "issueNumber": 4,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2021-11-02T09:06:24-0400",
+          "isbn": "",
+          "upc": "75960620252200411",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/98402",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/98402/captain_americairon_man_2021_4?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Captain-America-Iron-Man-4/digital-comic/58616?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=58616&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/33953",
+            "name": "Captain America/Iron Man (2021 - 2022)"
+          },
+          "variants": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/99943",
+              "name": "Captain America/Iron Man (2021) #4 (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/100250",
+              "name": "Captain America/Iron Man (2021) #4 (Variant)"
+            }
+          ],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-03-02T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-01-24T00:00:00-0500"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-06-06T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2022-02-24T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/6217ed911bc88",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/6217ed911bc88",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98402/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12861",
+                "name": "Derek Landy",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+                "name": "Rachelle Rosenberg",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/63",
+                "name": "Alex Ross",
+                "role": "painter (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13046",
+                "name": "Alanna Smith",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13816",
+                "name": "Angel Unzueta",
+                "role": "inker"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98402/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                "name": "Iron Man"
+              }
+            ],
+            "returned": 2
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98402/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217873",
+                "name": "cover from Captain America/Iron Man (2021) #4",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217874",
+                "name": "story from Captain America/Iron Man (2021) #4",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98402/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 100347,
+          "digitalId": 58886,
+          "title": "Life of Wolverine Infinity Comic (2022) #5",
+          "issueNumber": 5,
+          "variantDescription": "",
+          "description": "Wolverine's chronological history continues! Logan allies with Captain America and Nick Fury during World War II, lives through the attack on Hiroshima, and finds a measure of peace in Japan with his wife, Itsu.",
+          "modified": "2022-02-11T13:21:05-0500",
+          "isbn": "",
+          "upc": "75960620360400511",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Digital Vertical Comic",
+          "pageCount": 3,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "Wolverine's chronological history continues! Logan allies with Captain America and Nick Fury during World War II, lives through the attack on Hiroshima, and finds a measure of peace in Japan with his wife, Itsu."
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/100347",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/100347/life_of_wolverine_infinity_comic_2022_5?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=58886&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/34445",
+            "name": "Life of Wolverine Infinity Comic (2022 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-02-17T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "2022-01-17T00:00:00-0500"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-02-17T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 0
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/50/61f80feabfae5",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/50/61f80feabfae5",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 5,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/100347/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12741",
+                "name": "Ramon Bachs",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+                "name": "Mark Basso",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+                "name": "Vc Joe Sabino",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/8704",
+                "name": "Javier Tartaglia",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12390",
+                "name": "Jim Zub",
+                "role": "writer"
+              }
+            ],
+            "returned": 5
+          },
+          "characters": {
+            "available": 5,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/100347/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009211",
+                "name": "Bucky"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009471",
+                "name": "Nick Fury"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010740",
+                "name": "Winter Soldier"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 5
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/100347/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/221796",
+                "name": "cover from X Lives of Wolverine Infinity Comic (2022) #5",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/221797",
+                "name": "story from X Lives of Wolverine Infinity Comic (2022) #5",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/100347/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 98401,
+          "digitalId": 58507,
+          "title": "Captain America/Iron Man (2021) #3",
+          "issueNumber": 3,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2021-10-05T09:06:24-0400",
+          "isbn": "",
+          "upc": "75960620252200311",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/98401",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/98401/captain_americairon_man_2021_3?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Captain-America-Iron-Man-3/digital-comic/58507?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=58507&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/33953",
+            "name": "Captain America/Iron Man (2021 - 2022)"
+          },
+          "variants": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/99419",
+              "name": "Captain America/Iron Man (2021) #3 (Variant)"
+            }
+          ],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-01-26T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "2021-12-13T00:00:00-0500"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-05-02T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2022-01-21T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/f0/61cf3ffcee459",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/f0/61cf3ffcee459",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98401/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12861",
+                "name": "Derek Landy",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+                "name": "Rachelle Rosenberg",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/63",
+                "name": "Alex Ross",
+                "role": "painter (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13046",
+                "name": "Alanna Smith",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13816",
+                "name": "Angel Unzueta",
+                "role": "inker"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98401/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                "name": "Iron Man"
+              }
+            ],
+            "returned": 2
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98401/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217871",
+                "name": "cover from Captain America/Iron Man (2021) #3",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217872",
+                "name": "story from Captain America/Iron Man (2021) #3",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98401/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 95757,
+          "digitalId": 58499,
+          "title": "The Amazing Spider-Man (2018) #87",
+          "issueNumber": 87,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2021-10-05T09:05:07-0400",
+          "isbn": "",
+          "upc": "75960608936908711",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "2644-0539",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/95757",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/95757/the_amazing_spider-man_2018_87?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/The-Amazing-Spider-Man-87/digital-comic/58499?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=58499&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/24396",
+            "name": "The Amazing Spider-Man (2018 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-01-26T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "2021-12-13T00:00:00-0500"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-05-02T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2022-01-21T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/b0/61cf4019594fd",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/b0/61cf4019594fd",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/95757/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12208",
+                "name": "Arthur Adams",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/10355",
+                "name": "Carlos Gomez",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+                "name": "Nick Lowe",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13471",
+                "name": "Jed Mackay",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14157",
+                "name": "Alejandro Sanchez",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14328",
+                "name": "Bryan Valenza",
+                "role": "colorist"
+              }
+            ],
+            "returned": 7
+          },
+          "characters": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/95757/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009185",
+                "name": "Black Cat"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1014858",
+                "name": "Spider-Man (Ben Reilly)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+                "name": "Spider-Man (Peter Parker)"
+              }
+            ],
+            "returned": 4
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/95757/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/212578",
+                "name": "cover from The Amazing Spider-Man (2018) #87",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/212579",
+                "name": "story from The Amazing Spider-Man (2018) #87",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/95757/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 96214,
+          "digitalId": 58514,
+          "title": "Devil's Reign (2021) #3",
+          "issueNumber": 3,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2021-10-05T09:07:31-0400",
+          "isbn": "",
+          "upc": "75960620208900311",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/96214",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/96214/devils_reign_2021_3?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Devil-s-Reign-3/digital-comic/58514?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=58514&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/32952",
+            "name": "Devil's Reign (2021 - 2022)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-01-26T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "2021-12-13T00:00:00-0500"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-05-02T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2022-01-21T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/b0/61cf3ffb9ccf4",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/b0/61cf3ffb9ccf4",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/96214/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/11748",
+                "name": "Marco Checchetto",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/10172",
+                "name": "Vc Clayton Cowles",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12457",
+                "name": "Edward Devin Lewis",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13058",
+                "name": "Marcio Menyz",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+                "name": "Matthew Wilson",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12494",
+                "name": "Chip Zdarsky",
+                "role": "writer"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 9,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/96214/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+                "name": "Daredevil"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009288",
+                "name": "Elektra"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009299",
+                "name": "Fantastic Four"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009378",
+                "name": "Jessica Jones"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009389",
+                "name": "Kingpin"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009215",
+                "name": "Luke Cage"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1014858",
+                "name": "Spider-Man (Ben Reilly)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010360",
+                "name": "Thunderbolts"
+              }
+            ],
+            "returned": 9
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/96214/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/213493",
+                "name": "cover from Fear King (2021) #3",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/213494",
+                "name": "story from Fear King (2021) #3",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/96214/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 98400,
+          "digitalId": 58163,
+          "title": "Captain America/Iron Man (2021) #2",
+          "issueNumber": 2,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2021-09-04T09:05:04-0400",
+          "isbn": "",
+          "upc": "75960620252200211",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/98400",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/98400/captain_americairon_man_2021_2?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Captain-America-Iron-Man-2/digital-comic/58163?utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=58163&utm_campaign=apiRef&utm_source=489d289854fbfcb356ded93a89e0451d"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/33953",
+            "name": "Captain America/Iron Man (2021 - 2022)"
+          },
+          "variants": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/99155",
+              "name": "Captain America/Iron Man (2021) #2 (Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/99208",
+              "name": "Captain America/Iron Man (2021) #2 (Variant)"
+            }
+          ],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2022-01-05T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "2021-11-08T00:00:00-0500"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2022-04-11T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2022-01-04T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/61d4c516beb76",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/61d4c516beb76",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98400/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12861",
+                "name": "Derek Landy",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+                "name": "Rachelle Rosenberg",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/63",
+                "name": "Alex Ross",
+                "role": "painter (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13046",
+                "name": "Alanna Smith",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13816",
+                "name": "Angel Unzueta",
+                "role": "inker"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98400/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                "name": "Iron Man"
+              }
+            ],
+            "returned": 2
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98400/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217869",
+                "name": "cover from Captain America/Iron Man (2021) #2",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/217870",
+                "name": "story from Captain America/Iron Man (2021) #2",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/98400/events",
+            "items": [],
+            "returned": 0
+          }
+        }
+      ]
+    }
+  }

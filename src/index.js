@@ -15,6 +15,7 @@ const buildCharacterPage = (characterObject) => {
     <img id="hero-image" src="${characterObject.imageURL}">
     ${characterObject.description}
 </div>
+<h5 id="seen-in">AS SEEN IN</h5>
 <div id="carousel">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
@@ -110,9 +111,11 @@ const buildCharacterPage = (characterObject) => {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<div class="links-page-button-container-cnf">
-       <button type="button" onclick="location.href='index.html'"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bdb31cf-8741-41b8-b13e-5156cacdec90/d583fqt-aab8831f-e96c-4257-8ddc-9c70cce3deef.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZiZGIzMWNmLTg3NDEtNDFiOC1iMTNlLTUxNTZjYWNkZWM5MFwvZDU4M2ZxdC1hYWI4ODMxZi1lOTZjLTQyNTctOGRkYy05YzcwY2NlM2RlZWYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.l1dF2gQQN6ehJN-89DzBOTC_9xMzWCGZ5W4ugI_FZbw"></button></div>
-</div>
+<div class="homepage-button-container1" data-tooltip="Return to Homepage">
+                <button type="button" onclick="location.href='index.html'"><img
+                  src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bdb31cf-8741-41b8-b13e-5156cacdec90/d583fqt-aab8831f-e96c-4257-8ddc-9c70cce3deef.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZiZGIzMWNmLTg3NDEtNDFiOC1iMTNlLTUxNTZjYWNkZWM5MFwvZDU4M2ZxdC1hYWI4ODMxZi1lOTZjLTQyNTctOGRkYy05YzcwY2NlM2RlZWYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.l1dF2gQQN6ehJN-89DzBOTC_9xMzWCGZ5W4ugI_FZbw"></button>
+     </div>
+     <h2 id=h2>Home</h2>
   <script src="bundle.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 `
@@ -155,3 +158,9 @@ const searchBar = () => {
 
 document.querySelector("#searchButton").addEventListener("click", searchBar)
 
+
+module.exports = {
+  buildCharacterPage,
+  characterNotFound,
+  searchBar
+}

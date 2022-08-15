@@ -42,19 +42,31 @@
     padding: 10px 20px;
 }
 
-.search-bar input {
-    background: transparent;
+#searchInput {
+    width: 100%;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.0);
     flex: 1;
     border: 0;
     outline: none;
-    padding: 24px 20px;
+    padding: 10px 20px;
+    border-radius: 60px;
     font-size: 40px;
     font-weight: bold;
     color: #ffffff
 }
 
+input:autofill {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+input:-webkit-autofill {
+    background: rgba(255, 255, 255, 0.2);
+}
+
 ::placeholder {
-    color: #ffffff;
+    color: #fcf9f9;
+    background-color: transparent;
 }
 
 .search-bar button img {
