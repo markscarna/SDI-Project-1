@@ -15,11 +15,17 @@ expect(comicArray[0].name).toEqual("Captain America Epic Collection: Sturm Und D
 expect(comicArray[0].imagePath).toEqual("http://i.annihil.us/u/prod/marvel/i/mg/4/50/62ed84993f381/portrait_incredible.jpg");
 expect(comicArray[0].description).toEqual("There is no description available.");
 expect(comicArray[0].yearReleased).toEqual("2022-08-10");
- 
-
 })
+
+
 test('should return an array', () => {
 
 expect(Array.isArray(comicArray)).toBe(true);
 
+})
+
+test('should make sure the correct object is passed to the constructor', () => {
+let comicObject2 = new Comics({ name: 'Jesus', age: 493 });
+let comicArray2 = comicObject2.getListOfComics();   
+expect(comicArray2).toEqual("Must pass in a comic object");
 })

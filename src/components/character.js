@@ -14,17 +14,6 @@ class Character {
         }
     }
 
-
-
-
-
-    // getListOfComics() {
-    //     let tempComics = []
-    //     for (let comic of this.listOfComics) {
-    //         tempComics.push(comic.name);
-    //     }
-    //     return tempComics;
-    // }
 }
 
 //export default Character;
