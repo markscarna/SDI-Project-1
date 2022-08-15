@@ -9,10 +9,30 @@
     
 }
 
+#seen-in {
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    padding-bottom: 1%;
+}
+
 #hero-image{
     padding-left: 250px;
     padding-right: 30px;
     float: left;
+    color: white;
+    background-color: black;
+    opacity: 1.0 !important;
+    display: flex;
+    
+}
+
+#h2 {
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    padding-left:50px;
 }
 
 #hero-description{
@@ -21,9 +41,15 @@
     padding-top: 30px;
     padding-right: 130px;
     font-size: 46px;
+    font-weight: 900; 
     padding-bottom: 150px ;
     margin: 0 auto;
     color: whitesmoke;
+    display: flex;
+    width: 80vw;
+    background-color: black; 
+    opacity: .8; 
+    padding-top: 100px;
 }
 
 body{
@@ -43,7 +69,18 @@ body{
     margin: 0 auto;    
 }
 
+.carousel-caption {
+    -ms-high-contrast-adjust: active;
+    color:white !important;
+    font-weight: bolder;
+    display: flex;
+    background-color: indigo;
+    opacity: 0.69;
+}
+
 #comic-description{
     float: right;
 }
+
+
 
