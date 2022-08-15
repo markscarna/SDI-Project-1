@@ -155,3 +155,9 @@ const searchBar = () => {
 
 document.querySelector("#searchButton").addEventListener("click", searchBar)
 
+
+module.exports = {
+  buildCharacterPage,
+  characterNotFound,
+  searchBar
+}

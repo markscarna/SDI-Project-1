@@ -6881,4 +6881,9 @@ const searchBar = () => {
 document.querySelector("#searchButton").addEventListener("click", searchBar)
 
 
+module.exports = {
+  buildCharacterPage,
+  characterNotFound,
+  searchBar
+}
 },{"./components/apiFetch":31}]},{},[34]);
